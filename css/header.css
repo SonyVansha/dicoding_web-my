@@ -1,0 +1,45 @@
+/* Penngaturan navbar */
+
+header.navbar-container {
+    max-width: 1200px;
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    padding-block: 1rem;
+    z-index: 999;
+}
+
+/* mengubah link men jadi lurus */
+header.navbar-container .nav-list ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem 1rem;
+}
+
+/* Menghapus titik list */
+header.navbar-container .nav-list li {
+    list-style-type: none;
+}
+   
+header.navbar-container .nav-list li a {
+    /* menghapus garis bawah link */
+    text-decoration: none;
+    /* Ukuran size font */
+    font-size: 1.05rem;
+    /* Lebar */
+    font-weight: 500;
+    color: black;
+    padding: .5rem 1.5rem;
+    border-radius: 999px;
+    transition: all .2s ease-in-out;
+}
+
+/* mengubah warna bacground dan color */
+header.navbar-container .nav-list li:hover a {
+    background-color: aqua;
+    color: black;
+}

@@ -1,7 +1,7 @@
 /* Penngaturan navbar */
 
 header.navbar-container {
-    max-width: 1200px;
+    /* max-width: 1200px; */
     width: 100%;
     margin-inline: auto;
     display: flex;
@@ -10,6 +10,16 @@ header.navbar-container {
     
     padding-block: 1rem;
     z-index: 999;
+    /* Ubah Backgorund */
+    background-color: darkgray;
+    /* Ubah jadi diam */
+    position: sticky;
+    top: 0;
+}
+
+/* Ukuran dari logo dan ukuran navbar */
+header.navbar-container .logo img {
+    width: 150px;
 }
 
 /* mengubah link men jadi lurus */

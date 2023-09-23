@@ -12,9 +12,6 @@ header.navbar-container {
     z-index: 999;
     /* Ubah Backgorund */
     background-color: darkgray;
-    /* Ubah jadi diam */
-    position: sticky;
-    top: 0;
 }
 
 /* Ukuran dari logo dan ukuran navbar */
@@ -25,7 +22,7 @@ header.navbar-container .logo img {
 /* mengubah link men jadi lurus */
 header.navbar-container .nav-list ul {
     padding-left: 0;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     gap: 2rem 1rem;
 }
@@ -33,6 +30,7 @@ header.navbar-container .nav-list ul {
 /* Menghapus titik list */
 header.navbar-container .nav-list li {
     list-style-type: none;
+    display: inline;
 }
    
 header.navbar-container .nav-list li a {
@@ -52,4 +50,9 @@ header.navbar-container .nav-list li a {
 header.navbar-container .nav-list li:hover a {
     background-color: aqua;
     color: black;
+}
+
+nav {
+    position: sticky;
+    top: 0;
 }

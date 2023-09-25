@@ -1,5 +1,11 @@
 /* Penngaturan navbar */
 
+/* Membuat nav menjadi diam */
+header {
+    position: sticky;
+    top: 0;
+}
+
 header.navbar-container {
     /* max-width: 1200px; */
     width: 100%;
@@ -48,8 +54,9 @@ header.navbar-container .nav-list li a {
 
 /* mengubah warna bacground dan color */
 header.navbar-container .nav-list li:hover a {
-    background-color: aqua;
+    background-color: darkgrey;
     color: black;
+    border: 1px solid skyblue;
 }
 
 nav {

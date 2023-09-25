@@ -1,11 +1,9 @@
 /* Tubuh web */
 body {
-    height: 100vh;
+    /* height: 100vh; */
     font-family: 'Quicksand', sans-serif;
-
     margin: 0;
-    padding: 0;
- 
+    
     /* display: flex; */
     flex-direction: column;
 }
@@ -41,7 +39,7 @@ body {
     flex: 1 1;
 }
 
-/* Ukuran font dari Tiitle */
+/* Ukuran font dari Tiitle/judul */
 .container .content .content-description .title {
     font-size: 3.5rem;
     margin-block: 1rem;
@@ -79,13 +77,13 @@ body {
   }
 
 /* Autor foto */
-.container .content .content-image {
+.content-image {
     flex: 1;
     display: flex;
 }
    
 /* Atur Ukuran foto */
-.container .content .content-image img {
+.content-image img {
     margin: auto;
     min-width: 250px;
     width: 300px;
